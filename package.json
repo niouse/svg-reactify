@@ -1,0 +1,21 @@
+{
+  "name": "svg-reactify",
+  "version": "0.0.1",
+  "description": "A command-line tool to convert svg files to react component",
+  "main": "index.js",
+  "scripts": {
+    "test": "test-react-component"
+  },
+  "bin": {
+    "svg-reactify": "./index.js"
+  },
+  "keywords": [
+    "cli",
+    "react"
+  ],
+  "author": "Sébastien Pinard",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.9.0"
+  }
+}
